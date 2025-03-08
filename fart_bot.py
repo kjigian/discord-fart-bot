@@ -5,6 +5,10 @@ import os
 from discord.ext import commands
 import json
 from keep_alive import keep_alive  # Import the keep_alive function
+from dotenv import load_dotenv  # Import for loading .env file
+
+# Load environment variables from .env file if it exists
+load_dotenv()
 
 # Configuration
 TOKEN = os.environ.get('TOKEN', 'YOUR_BOT_TOKEN')  # Use environment variable if available
@@ -102,4 +106,4 @@ async def play_fart_sound(voice_client):
 if __name__ == "__main__":
     print("Starting Fart Bot...")
     keep_alive()  # Start the web server to keep the bot alive
-    bot.run(TOKEN)
+    bot.run(TOKEN) 

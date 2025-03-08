@@ -1,1 +1,1 @@
-worker: python fart_bot.py
+worker: python fart_bot.py 

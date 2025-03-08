@@ -88,4 +88,4 @@ To find a Discord user's ID:
 
 - If you get audio-related errors, make sure FFmpeg is installed correctly
 - If the bot doesn't respond to commands, check that you enabled the Message Content Intent
-- If no sounds play, make sure you have MP3 files in the `fart_sounds` directory
+- If no sounds play, make sure you have MP3 files in the `fart_sounds` directory 
